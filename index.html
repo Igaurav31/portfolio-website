@@ -22,12 +22,12 @@
 
 <body>
   <nav>
-    <a class="logo" href="#">Gaurav</a>
+    <a class="logo" href="index.html">Gaurav</a>
     <ul class="nav-links">
-      <li><a href="#"><i class="fas fa-info-circle"></i>About</a></li>
-      <li><a href="#"><i class="fas fa-tasks"></i>Projects</a></li>
-      <li><a href="#"><i class="fas fa-pencil-alt"></i>Blog</a></li>
-      <li><a href="#"><i class="fas fa-envelope"></i>Contact</a></li>
+      <li><a href="/about.html"><i class="fas fa-info-circle"></i>About</a></li>
+      <li><a href="/projects.html"><i class="fas fa-tasks"></i>Projects</a></li>
+      <li><a href="/blogs.html"><i class="fas fa-pencil-alt"></i>Blog</a></li>
+      <li><a href="/contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
     </ul>
     <div class="hamburger">
       <div class="line"></div>
@@ -191,11 +191,11 @@
       </ul>
     </div>
     <h2 style="color: white;">~/contact/get-in-touch</h2>
-  <p style="color: white;">
-    Do you have a project in mind? Or would like to colab? Feel free to contact me.
-     You can find me at various places around the web, including <span><a href="https://twitter.com/Igaurav02__" target="_blank">Twitter</a></span> and <span><a href="https://twitter.com/Igaurav02__" target="_blank">Instagram</a></span>.
-      Or send me an email at ("...").
-  </p>
+    <p style="color: white;">
+      Do you have a project in mind? Or would like to colab? Feel free to contact me.<br>
+       You can find me  at various places around the web, including <span><a href="https://twitter.com/Igaurav02__" target="_blank" style="color: #80C0FF;">Twitter</a></span> and <span><a href="https://twitter.com/Igaurav02__" target="_blank" style="color: #CD486B;">Instagram</a></span>.
+       <br>  Or send me an email at ("...").
+    </p>
   </div>
   <!-- experience 2 -->
   <!-- experience 3 -->
@@ -245,26 +245,26 @@
     // for carousel
 
     // for experience
-//     const expDetailsButtons = document.querySelectorAll('.exp-details-btn');
+    const expDetailsButtons = document.querySelectorAll('.exp-details-btn');
 
-// expDetailsButtons.forEach(button => {
-//   button.addEventListener('click', () => {
-//     const expDetails = button.closest('.experience').querySelector('.exp-details');
-//     expDetails.classList.toggle('active');
-//     button.textContent = expDetails.classList.contains('active') ? '▼' : '▶';
-//   });
-// });
+expDetailsButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const expDetails = button.closest('.experience').querySelector('.exp-details');
+    expDetails.classList.toggle('active');
+    button.textContent = expDetails.classList.contains('active') ? '▼' : '▶';
+  });
+});
 
-// const expHeaders = document.querySelectorAll('.exp-header');
+const expHeaders = document.querySelectorAll('.exp-header');
 
-// expHeaders.forEach(header => {
-//   header.addEventListener('click', () => {
-//     const expDetails = header.closest('.experience').querySelector('.exp-details');
-//     expDetails.classList.toggle('active');
-//     const expDetailsBtn = header.querySelector('.exp-details-btn');
-//     expDetailsBtn.textContent = expDetails.classList.contains('active') ? '▼' : '▶';
-//   });
-// });
+expHeaders.forEach(header => {
+  header.addEventListener('click', () => {
+    const expDetails = header.closest('.experience').querySelector('.exp-details');
+    expDetails.classList.toggle('active');
+    const expDetailsBtn = header.querySelector('.exp-details-btn');
+    expDetailsBtn.textContent = expDetails.classList.contains('active') ? '▼' : '▶';
+  });
+});
 
     // for experience
 

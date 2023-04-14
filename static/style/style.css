@@ -77,6 +77,12 @@ nav {
     background-color: white;
     margin: 5px;
   }
+
+  p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    word-spacing:  0.6rem;;
+}
   
   /* Responsive styles */
   @media screen and (max-width: 768px) {

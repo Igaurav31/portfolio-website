@@ -1,27 +1,9 @@
-<!-- <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Gaurav Shinde</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><i class="fa-regular fa-user"></i>About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa-sharp fa-regular fa-suitcase"></i>Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa fa-sharp fa-regular fa-book"></i>Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa-sharp fa-regular fa-envelope-open"></i>Contact</a>
-        </li>
-
-
-      </ul>
-    </div>
-  </div>
-</nav> -->
+Bugs:
+1. Navbar spacing between links and padding 
+2. Index - body padding
+3. Index - triagle icon
+4. About - Intro padding issue
+5. About - body padding
+6. Contact - body padding baki perfect hai
+7. Project - totally incomplete
+8. Blog - totally incomplete
