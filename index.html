@@ -1,12 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaurav Shinde portfolio</title>
+  <link rel="stylesheet" href="static/style/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/fb5a18be6d.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-    
+  <nav>
+    <a class="logo" href="#">Gaurav</a>
+    <ul class="nav-links">
+      <li><a href="#"><i class="fas fa-info-circle"></i>About</a></li>
+      <li><a href="#"><i class="fas fa-tasks"></i>Projects</a></li>
+      <li><a href="#"><i class="fas fa-pencil-alt"></i>Blog</a></li>
+      <li><a href="#"><i class="fas fa-envelope"></i>Contact</a></li>
+    </ul>
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </nav>
+  <div class="content">
+    <div class="greeting-container">
+      <div class="greeting">
+        <div class="greeting-text">
+          <h1>
+            <!-- <span>Hola</span> -->
+            <span>Hello</span>
+            <!-- <span>Howdy</span>
+            <span>Salut</span>
+            <span>Ciao</span> -->
+          </h1>
+          <h2>I'm Gaurav</h2>
+        </div>
+        <div class="social-icons">
+          <a href="https://twitter.com/Igaurav02__" target="_blank" class="icon-link"><i class="fab fa-twitter"></i></a>
+          <a href="https://github.com/Igaurav31" target="_blank" class="icon-link"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/gaurav-shinde-3105/"  target="_blank" class="icon-link"><i class="fab fa-linkedin"></i></a>
+          <a href="#"  target="_blank" class="icon-link"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="description">
+        <h1 style="color: white; font-size: 30px; font-weight: bold;">A creative software developer, with a
+          specialization<br> in Backend Development. Making <br> pretty, useful things
+          for people to use.</h1>
+          
+      </div>
+    </div>
+
+  </div>
+  <!-- <h1 style="color: white;">~/work/projects</h1> -->
+  <!-- carousal -->
+  <!-- <div id="projects" style="height: 400px;">
+
+    <h2 style="color: white;">~/work/projects</h2>
+    <div class="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img src="https://picsum.photos/200/300" alt="Project Image">
+          <div class="project-info">
+            <h3>Project Name</h3>
+            <a href="https://project-link.com" target="_blank"><i class="fas fa-external-link-alt"></i> Visit
+              Website</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/200/300" alt="Project Image">
+          <div class="project-info">
+            <h3>Project Name</h3>
+            <a href="https://project-link.com" target="_blank"><i class="fas fa-external-link-alt"></i> Visit
+              Website</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/200/300" alt="Project Image">
+          <div class="project-info">
+            <h3>Project Name</h3>
+            <a href="https://project-link.com" target="_blank"><i class="fas fa-external-link-alt"></i> Visit
+              Website</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/200/300" alt="Project Image">
+          <div class="project-info">
+            <h3>Project Name</h3>
+            <a href="https://project-link.com" target="_blank"><i class="fas fa-external-link-alt"></i> Visit
+              Website</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/200/300" alt="Project Image">
+          <div class="project-info">
+            <h3>Project Name</h3>
+            <a href="https://project-link.com" target="_blank"><i class="fas fa-external-link-alt"></i> Visit
+              Website</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/200/300" alt="Project Image">
+          <div class="project-info">
+            <h3>Project Name</h3>
+            <a href="https://project-link.com" target="_blank"><i class="fas fa-external-link-alt"></i> Visit
+              Website</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/200/300" alt="Project Image">
+          <div class="project-info">
+            <h3>Project Name</h3>
+            <a href="https://project-link.com" target="_blank"><i class="fas fa-external-link-alt"></i> Visit
+              Website</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- carousal -->
+
+  <!-- experience -->
+ 
+  <!-- experience 1 -->
+  <div class="experience" id="exp1">
+    <h2 style="color: white;">~/work/experience</h2>
+    <div class="exp-header">
+      <div class="exp-title">
+        
+        <div class="company-info">
+          <div class="company-name">
+            <!-- <div id="triangle" style="width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #333;"><i class="triangle-icon"></i></div> -->
+            
+            <h3>Back-end developement intern <span><a href="https://flourisense.in/" target="_blank" style="color: #FFD700;">@Flourisense</a></span></h3>
+          </div>
+          <div class="exp-date">
+            <p>Exp Date: jan 23 - feb 23</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- <p class="exp-date">March 2023 - Present</p> -->
+    </div>
+    <div class="exp-details">
+      <ul>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, error?</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, error?</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, error?</li>
+      </ul>
+    </div>
+  </div>
+  
+  
+  
+  <!-- experience 1 -->
+  <!-- experience 2 -->
+  <div class="experience" id="exp2">
+    <div class="exp-header">
+      <div class="exp-title">
+        
+        <div class="company-info">
+          <div class="company-name">
+            <h3>Tech team member <span><a href="https://gdsc.community.dev/jspms-imperial-college-of-engineering-and-research-icoer-pune/" target="_blank" style="color: #FFD700;">@GDSC ICOER</a></span></h3>
+          </div>
+          <div class="exp-date">
+            <p>Exp Date: jan 23 - feb 23</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- <p class="exp-date">June 2022 - August 2022</p> -->
+    </div>
+    <div class="exp-details">
+      <ul>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, error?</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, error?</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, error?</li>
+      </ul>
+    </div>
+    <h2 style="color: white;">~/contact/get-in-touch</h2>
+  <p style="color: white;">
+    Do you have a project in mind? Or would like to colab? Feel free to contact me.
+     You can find me at various places around the web, including <span><a href="https://twitter.com/Igaurav02__" target="_blank">Twitter</a></span> and <span><a href="https://twitter.com/Igaurav02__" target="_blank">Instagram</a></span>.
+      Or send me an email at ("...").
+  </p>
+  </div>
+  <!-- experience 2 -->
+  <!-- experience 3 -->
+ 
+  <!-- experience 3 -->
+  <!-- experience -->
+
+  
+  <script>
+    // for carousel
+    // const carousel = document.querySelector('.carousel-inner');
+    // let isDown = false;
+    // let startX;
+    // let scrollLeft;
+    // $(document).ready(function () {
+    //   $('.carousel').carousel();
+    // });
+
+    // carousel.addEventListener('mousedown', (e) => {
+    //   isDown = true;
+    //   startX = e.pageX - carousel.offsetLeft;
+    //   scrollLeft = carousel.scrollLeft;
+    // });
+
+    // carousel.addEventListener('mouseleave', () => {
+    //   isDown = false;
+    // });
+
+    // carousel.addEventListener('mouseup', () => {
+    //   isDown = false;
+    // });
+
+    // carousel.addEventListener('mousemove', (e) => {
+    //   if (!isDown) return;
+    //   e.preventDefault();
+    //   const x = e.pageX - carousel.offsetLeft;
+    //   const walk = (x - startX) * 3;
+    //   carousel.scrollLeft = scrollLeft - walk;
+    // });
+
+    // carousel.addEventListener('transitionend', () => {
+    //   const items = carousel.querySelectorAll('.carousel-item');
+    //   const firstItem = items[0];
+    //   carousel.appendChild(firstItem);
+    //   carousel.classList.remove('translate-x');
+    // });
+    // for carousel
+
+    // for experience
+//     const expDetailsButtons = document.querySelectorAll('.exp-details-btn');
+
+// expDetailsButtons.forEach(button => {
+//   button.addEventListener('click', () => {
+//     const expDetails = button.closest('.experience').querySelector('.exp-details');
+//     expDetails.classList.toggle('active');
+//     button.textContent = expDetails.classList.contains('active') ? '▼' : '▶';
+//   });
+// });
+
+// const expHeaders = document.querySelectorAll('.exp-header');
+
+// expHeaders.forEach(header => {
+//   header.addEventListener('click', () => {
+//     const expDetails = header.closest('.experience').querySelector('.exp-details');
+//     expDetails.classList.toggle('active');
+//     const expDetailsBtn = header.querySelector('.exp-details-btn');
+//     expDetailsBtn.textContent = expDetails.classList.contains('active') ? '▼' : '▶';
+//   });
+// });
+
+    // for experience
+
+  </script>
+
+
 </body>
+
+
 </html>
