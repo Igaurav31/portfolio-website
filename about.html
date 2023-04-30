@@ -21,14 +21,21 @@
 </head>
 
 <body>
-  <nav>
+  <nav style="    height: 65px;
+  padding-bottom: 20px;
+  padding-top: 20px;">
     <a class="logo" href="index.html">Gaurav</a>
     <ul class="nav-links">
-        <li><a href="index.html"><i class="fa-solid fa-house"></i>Home</a></li>
-        <li><a href="/about.html"><i class="fas fa-info-circle"></i>About</a></li>
-        <li><a href="/projects.html"><i class="fas fa-tasks"></i>Projects</a></li>
-        <li><a href="/blogs.html"><i class="fas fa-pencil-alt"></i>Blog</a></li>
-        <li><a href="/contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+      <li><a href="index.html" style="padding-left: 20px;padding-right: 20px;"><i class="fa-solid fa-house"></i>Home</a>
+      </li>
+      <li><a href="/about.html" style="padding-left: 20px;padding-right: 20px;"><i
+            class="fas fa-info-circle"></i>About</a></li>
+      <li><a href="/projects.html" style="padding-left: 20px;padding-right: 20px;"><i
+            class="fas fa-tasks"></i>Projects</a></li>
+      <li><a href="/blogs.html" style="padding-left: 20px;padding-right: 20px;"><i
+            class="fas fa-pencil-alt"></i>Blog</a></li>
+      <li><a href="/contact.html" style="padding-left: 20px;padding-right: 20px;"><i
+            class="fas fa-envelope"></i>Contact</a></li>
     </ul>
     <div class="hamburger">
       <div class="line"></div>
@@ -36,7 +43,7 @@
       <div class="line"></div>
     </div>
   </nav>
-  
+
   <!-- <div class="container-fluid" style="padding-top: 60px;">
     <div class="info">
         <h2 style="color: white;">~/about/intro</h2>
@@ -55,46 +62,48 @@
   <div class="cnt" style="padding-top: 60px;">
     <div class="left">
       <h2>~/about/intro</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam veniam tempora tenetur nemo explicabo pariatur.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam veniam tempora tenetur nemo explicabo pariatur.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam veniam tempora tenetur nemo explicabo pariatur.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam veniam tempora tenetur nemo explicabo pariatur.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam veniam tempora tenetur nemo explicabo pariatur.</p>
-      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, </p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, laboriosam? Exercitationem, fsdsffdsaf
+      </p>
       <ul>
-        <li>React</li>
-        <li>Next.js</li>
-        <li>Javascript</li>
-        <li>Contentful CMS</li>
-        <li>Figma</li>
-        <li>TailwindCss</li>
+        <li>lorem</li>
+        <li>lorem</li>
+        <li>lorem</li>
+        <li>lorem</li>
+        <li>lorem</li>
+
       </ul>
-      
+
     </div>
     <div class="right photo" style="padding-top: 64px;
     padding-left: 53px;">
       <img src="/static/images/gaurav.png" alt="Gaurav's profile picture">
     </div>
   </div>
-  
 
-   <div class="experience" id="exp1">
+  <!-- experience -->
+
+  <!-- experience 1 -->
+  <div class="experience" id="exp1">
     <h2 style="color: white;">~/work/experience</h2>
     <div class="exp-header">
       <div class="exp-title">
-        
+
         <div class="company-info">
           <div class="company-name">
             <!-- <div id="triangle" style="width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #333;"><i class="triangle-icon"></i></div> -->
-            
-            <h3>Back-end developement intern <span><a href="https://flourisense.in/" target="_blank" style="color: #FFD700;">@Flourisense</a></span></h3>
+
+            <h3><span id="my-element1" onclick="changeText1()">&#x25BA;</span><span class="position"> Back-end
+                Developement Intern </span><span><a href="https://flourisense.in/" target="_blank"
+                  style="color: #FFD700;">@Flourisense</a></span></h3>
+
           </div>
           <div class="exp-date">
             <p>Exp Date: jan 23 - feb 23</p>
           </div>
         </div>
       </div>
-      
+
       <!-- <p class="exp-date">March 2023 - Present</p> -->
     </div>
     <div class="exp-details">
@@ -105,25 +114,28 @@
       </ul>
     </div>
   </div>
-  
-  
-  
+
+
+
   <!-- experience 1 -->
   <!-- experience 2 -->
   <div class="experience" id="exp2">
     <div class="exp-header">
       <div class="exp-title">
-        
+
         <div class="company-info">
           <div class="company-name">
-            <h3>Tech team member <span><a href="https://gdsc.community.dev/jspms-imperial-college-of-engineering-and-research-icoer-pune/" target="_blank" style="color: #FFD700;">@GDSC ICOER</a></span></h3>
+            <h3 onclick="changeText2()"><span id="my-element2">&#x25BA;</span><span class="position"> Tech team member
+              </span><span><a
+                  href="https://gdsc.community.dev/jspms-imperial-college-of-engineering-and-research-icoer-pune/"
+                  target="_blank" style="color: #FFD700;">@GDSC ICOER</a></span></h3>
           </div>
           <div class="exp-date">
             <p>Exp Date: jan 23 - feb 23</p>
           </div>
         </div>
       </div>
-      
+
       <!-- <p class="exp-date">June 2022 - August 2022</p> -->
     </div>
     <div class="exp-details">
@@ -136,13 +148,15 @@
     <h2 style="color: white;">~/contact/get-in-touch</h2>
     <p style="color: white;">
       Do you have a project in mind? Or would like to colab? Feel free to contact me.<br>
-       You can find me  at various places around the web, including <span><a href="https://twitter.com/Igaurav02__" target="_blank" style="color: #80C0FF;">Twitter</a></span> and <span><a href="https://twitter.com/Igaurav02__" target="_blank" style="color: #CD486B;">Instagram</a></span>.
-       <br>  Or send me an email at ("...").
+      You can find me at various places around the web, including <span><a href="https://twitter.com/Igaurav02__"
+          target="_blank" style="color: #80C0FF;">Twitter</a></span> and <span><a href="https://twitter.com/Igaurav02__"
+          target="_blank" style="color: #CD486B;">Instagram</a></span>.
+      <br> Or send me an email at ("...").
     </p>
   </div>
   <!-- experience 2 -->
   <!-- experience 3 -->
- 
+
   <!-- experience 3 -->
   <!-- experience -->
   <style>
@@ -188,74 +202,105 @@
   border-radius: 50%;
 } */
 
-.cnt {
-  display: flex;
-  flex-direction: row;
-  background-color: #0D1116;
-  color: #ffffff;
-}
+    .cnt {
+      display: flex;
+      flex-direction: row;
+      background-color: #0D1116;
+      color: #ffffff;
+    }
 
-.left {
-  padding: 20px;
-}
+    .left {
+      padding: 20px;
+    }
 
-.right {
-  padding: 20px;
-}
+    .right {
+      padding: 20px;
+    }
 
-h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
+    h2 {
+      /* font-size: 24px; */
+      margin-bottom: 10px;
+    }
 
-p {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
+    p {
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+      word-spacing: 0.6rem;
+    }
+    }
 
-/* ul {
+    /* ul {
   
   padding: 0;
   margin: 0;
 } */
 
-li {
-  margin-bottom: 5px;
-}
+    li {
+      margin-bottom: 5px;
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+      word-spacing: 0.6rem;
+    }
 
-img {
-  max-width: 80%;
-  height: auto;
-}
+    img {
+      max-width: 80%;
+      height: auto;
+    }
 
-
-
+    .position:hover {
+      color: lightblue;
+    }
   </style>
 
- <script>
+  <script>
     const expDetailsButtons = document.querySelectorAll('.exp-details-btn');
 
-expDetailsButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    const expDetails = button.closest('.experience').querySelector('.exp-details');
-    expDetails.classList.toggle('active');
-    button.textContent = expDetails.classList.contains('active') ? '▼' : '▶';
-  });
-});
+    expDetailsButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const expDetails = button.closest('.experience').querySelector('.exp-details');
+        expDetails.classList.toggle('active');
+        button.textContent = expDetails.classList.contains('active') ? '▼' : '▶';
+      });
+    });
 
-const expHeaders = document.querySelectorAll('.exp-header');
+    const expHeaders = document.querySelectorAll('.exp-header');
 
-expHeaders.forEach(header => {
-  header.addEventListener('click', () => {
-    const expDetails = header.closest('.experience').querySelector('.exp-details');
-    expDetails.classList.toggle('active');
-    const expDetailsBtn = header.querySelector('.exp-details-btn');
-    expDetailsBtn.textContent = expDetails.classList.contains('active') ? '▼' : '▶';
-  });
-});
- </script>
+    expHeaders.forEach(header => {
+      header.addEventListener('click', () => {
+        const expDetails = header.closest('.experience').querySelector('.exp-details');
+        expDetails.classList.toggle('active');
+        const expDetailsBtn = header.querySelector('.exp-details-btn');
+        expDetailsBtn.textContent = expDetails.classList.contains('active') ? '▼' : '▶';
+      });
+    });
+    var clicked1 = false;
+    function changeText1() {
+      var element = document.getElementById("my-element1");
+      if (!clicked1) {
+        element.innerHTML = "&#x25BC;";
+        clicked1 = true;
+      } else {
+        element.innerHTML = "&#x25BA;";
+        clicked1 = false;
+      }
+    }
 
- 
+
+    var clicked2 = false;
+    function changeText2() {
+      var element = document.getElementById("my-element2");
+      if (!clicked2) {
+        element.innerHTML = "&#x25BC;";
+        clicked2 = true;
+      } else {
+        element.innerHTML = "&#x25BA;";
+        clicked2 = false;
+      }
+    }
+
+  </script>
+
+
 
 
 </body>

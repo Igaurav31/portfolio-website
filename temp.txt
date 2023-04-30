@@ -1,11 +1,5 @@
 Bugs:
-1. Navbar spacing between links and padding 
-2. Index - body padding
-3. Index - triagle icon
-4. About - Intro padding issue✅
-5. About - body padding
-6. Contact - body padding baki perfect hai
-7. Project - totally incomplete ✅
-8. Blog - totally incomplete
-9. Edit html head for each page
-similar font size and font style all over the site
+
+
+
+```push code to repository```
